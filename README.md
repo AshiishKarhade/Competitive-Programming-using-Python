@@ -1,4 +1,4 @@
-# Competitive Programming using Python
+# Competitive Programming using Python/C++
 
 1. [CSES](https://github.com/AshiishKarhade/Competitive-Programming-using-Python-C-/tree/master/cses)
 2. [HackerRank](https://github.com/AshiishKarhade/Competitive-Programming-using-Python-C-/tree/master/geeksforgeeks)
