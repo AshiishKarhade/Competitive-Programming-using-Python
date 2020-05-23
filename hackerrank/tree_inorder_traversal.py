@@ -34,18 +34,27 @@ class BinarySearchTree:
                 else:
                     break
 
-def preOrder(root):
-    #visited = list()
-    def traverse(root):
-        if root:
-            print(root.info, end=" ")
-            traverse(root.left)
-            traverse(root.right)
-    traverse(root)
+"""
+Node is defined as
+self.left (the left child of the node)
+self.right (the right child of the node)
+self.info (the value of the node)
+"""
+def inOrder(root):
+    #Write your code here
+    if root:
+        inOrder(root.left)
+        print(root.info, end=" ")
+        inOrder(root.right)
+
+
 
 tree = BinarySearchTree()
 t = int(input())
+
 arr = list(map(int, input().split()))
+
 for i in range(t):
     tree.create(arr[i])
-preOrder(tree.root)
+
+inOrder(tree.root)
