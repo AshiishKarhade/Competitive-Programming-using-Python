@@ -33,6 +33,7 @@ int main(){
         cin >> arr[i];
     }
 
+    // inbuilt sort functions
     sort(arr, arr+n);
     int key;
     cout << "Enter a key: ";
