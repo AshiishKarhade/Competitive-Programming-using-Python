@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-void rotation(int a[n][n], int n){
+void rotation(int a[][n], int n){
     // REVERSE EACH ROW OF THE MAtrIX
     for(int i=0; i<n; i++){
         reverse(a[i], a[i]+n);
@@ -19,7 +19,6 @@ void rotation(int a[n][n], int n){
 }
 
 int main(){
-
     int m;
     cin >> m;
     int arr[m][m];
