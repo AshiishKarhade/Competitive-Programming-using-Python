@@ -31,6 +31,7 @@ int main(){
     }
     cout << "\n";
 
+    //sorting called
     selection_sort(arr, n);
 
     // after sorting
