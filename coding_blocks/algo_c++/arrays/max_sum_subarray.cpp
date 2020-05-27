@@ -19,7 +19,6 @@ void max_subarray(int arr[], int n){
   cout << "The O(n^3) soln gives: " << max_sum << endl;
 }
 
-// good solution
 
 int main() {
 
