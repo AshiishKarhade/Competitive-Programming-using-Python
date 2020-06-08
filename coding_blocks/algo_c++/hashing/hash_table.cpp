@@ -55,6 +55,7 @@ class Hashtable{
         Node<T>* n = new Node<T> (key, val);
         n->next = table[idx];
         table[idx] = n;
+        curr_size++;
     }
 
 
